@@ -29,6 +29,9 @@ function showToast() {
         Ravy Mot
       </UButton>
     </li>
+    <UButton to="/ravy">
+      Ravy
+    </UButton>
     <li>
       <UButton to="/chamroeun">
         Cham Roeun
