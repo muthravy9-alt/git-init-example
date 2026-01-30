@@ -18,26 +18,22 @@ function showToastRavy() {
 </script>
 
 <template>
-  <ul class="flex flex-col w-6xl gap-2 p-8">
+  <ul class="flex flex-col w-6xl gap-2 p-5 bg-amber-300">
     <li>
-      <UButton
-        to="/samnang"
-      >
-        Samnang
+      <UButton to="/samnang">
+        Samnang Mol
       </UButton>
     </li>
     <li>
       <UButton to="/ravy">
-        Ravy
+        Ravy Mot
       </UButton>
     </li>
     <UButton to="/ravy">
       Ravy
     </UButton>
     <li>
-      <UButton
-        to="/chamroeun"
-      >
+      <UButton to="/chamroeun">
         Cham Roeun
       </UButton>
     </li>
