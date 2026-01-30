@@ -1,7 +1,7 @@
 <script setup lang="ts">
 const toast = useToast()
 
-function showToastRavy() {
+function showToast() {
   const eventDate = new Date(Date.now() + Math.random() * 31536000000)
   const formattedDate = eventDate.toLocaleDateString('en-US', {
     month: 'short',
@@ -18,27 +18,31 @@ function showToastRavy() {
 </script>
 
 <template>
-  <ul class="flex flex-col w-6xl gap-2 p-5 bg-amber-300">
+  <ul class="flex flex-col w-6xl gap-2 p-8">
     <li>
-      <UButton to="/samnang">
-        Samnang Mol
+      <UButton
+        to="/samnang"
+      >
+        Samnang
       </UButton>
     </li>
     <li>
       <UButton to="/ravy">
-        Ravy Mot
+        Ravy
       </UButton>
     </li>
     <UButton to="/ravy">
       Ravy
     </UButton>
     <li>
-      <UButton to="/chamroeun">
+      <UButton
+        to="/chamroeun"
+      >
         Cham Roeun
       </UButton>
     </li>
     <li>
-      <UButton @click="showToastRavy()">
+      <UButton @click="showToast()">
         Show toast
       </UButton>
     </li>
