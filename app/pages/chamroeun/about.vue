@@ -8,7 +8,7 @@
 
     <UButton
       target="_blank"
-      to="https://facebook.com"
+      to="https://facebook.com/tun.chamroeun"
     >
       My Facebook
     </UButton>
