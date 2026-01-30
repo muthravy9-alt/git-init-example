@@ -1,5 +1,5 @@
 <template>
-  <div class="flex flex-col gap-2">
+  <div class="flex flex-col gap-3">
     <HomeButton />
     <div>
       email: tunchamroeun@cloudware.com.kh <br>
